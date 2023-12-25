@@ -9,8 +9,8 @@ MSA 기반의 쿠폰-상품-발급 등 미니 프로젝트
 - Spring Cloud Gateway 의 구성은 크게 `Route`, `Predicate`, `Filter` 로 구성
 
 ### Factory Gateway 서비스는 다음과 같은 역할을 담당
-- `GlobalTransactionId` 설정
-  - 각 서비스의 추적에 사용될 `글로벌 트랜잭션 ID` 를 생성하고, `HTTP Header` 에 설정
+- `GlobalTransactionId`
+  - 각 서비스의 추적, 로깅 등에 사용될 `글로벌 트랜잭션 ID` 를 생성하고, `HTTP Header` 에 설정
 - `Request Logging`
   - 모든 클라이언트의 요청 데이터를 DB 에 저장
 
