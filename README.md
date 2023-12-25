@@ -1,8 +1,15 @@
 # Factory Project
 MSA 기반의 쿠폰-상품-발급 등 미니 프로젝트
+> 각 서비스에 대한 설명은 토글(▶︎) 버튼을 클릭해주세요
 
-## [API Gateway Service](https://github.com/factory-msa/factory-api-gateway)
+<br>
 
+
+<details>
+  <summary><b>API Gateway Service (Port: 8000)</b></summary>
+
+  - [레포지토리](https://github.com/factory-msa/factory-api-gateway)
+  
 ### Gateway
 - 클라이언트와 서비스 사이에 위치한 Proxy 역할의 API Gateway
 - 클라이언트는 각 서비스의 엔드포인트 대신 API Gateway 로 Call -> Gateway 는 설정값에 따라 각 서비스를 호출하고, 응답을 클라이언트에 전달하는 역할
@@ -25,44 +32,42 @@ MSA 기반의 쿠폰-상품-발급 등 미니 프로젝트
 #### Filter
 - API Gateway 로 들어온 클라이언트의 요청에 Filter 를 적용하여 선처리 및 후처리를 적용
 
-```yml
-spring:
-  application:
-    name: factory-gateway-service
-  cloud:
-    gateway:
-      routes:
-        - id: factory-coupon-service
-          uri: http://localhost:10001/
-          predicates:
-            - Path=/api/v1/coupons/**
-        - id: factory-product-service
-          uri: http://localhost:10002/
-          predicates:
-            - Path=/api/v1/products/**
-```
-
-
 ### docs
 https://docs.spring.io/spring-cloud-gateway/docs/current/reference/html/
-
-<br/><br/>
-
-## [Eureka Service](https://github.com/factory-msa/factory-eureka)
-
-## [Config Service](https://github.com/factory-msa/factory-config)
-
-## [발급 서비스](https://github.com/factory-msa/factory-issuance)
-
-## [상품 서비스](https://github.com/factory-msa/factory-product)
-
-## [쿠폰 서비스](https://github.com/factory-msa/factory-coupon)
+</details>
 
 
-## 각 서비스 포트 번호
-- API Gateway: 8000
-- Eureka: 8761
-- Config: 8888
-- Coupon: 10001
-- Product: 10002
-- Issuance: 10003
+<details>
+  <summary><b>Eureka Service (Port: 8761)</b></summary>
+  
+  - [레포지토리](https://github.com/factory-msa/factory-eureka)
+</details>
+
+
+<details>
+  <summary><b>Config Service (Port: 8888)</b></summary>
+  
+  - [레포지토리](https://github.com/factory-msa/factory-config)
+</details>
+
+
+<details>
+  <summary><b>Coupon Service (Port: 10001)</b></summary>
+  
+  - [레포지토리](https://github.com/factory-msa/factory-coupon)
+</details>
+
+
+<details>
+  <summary><b>Product Service (Port: 10002)</b></summary>
+  
+  - [레포지토리](https://github.com/factory-msa/factory-product)
+</details>
+
+
+<details>
+  <summary><b>Issuance Service (Port: 10003)</b></summary>
+  
+  - [레포지토리](https://github.com/factory-msa/factory-issuance)
+</details>
+
