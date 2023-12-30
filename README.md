@@ -4,7 +4,6 @@ MSA 기반의 쿠폰-상품-발급 등 미니 프로젝트
 
 <br>
 
-
 <details>
   <summary><b>API Gateway Service (Port: 8000)</b></summary>
 
@@ -41,6 +40,11 @@ https://docs.spring.io/spring-cloud-gateway/docs/current/reference/html/
   <summary><b>Eureka Service (Port: 8761)</b></summary>
   
   - [레포지토리](https://github.com/factory-msa/factory-eureka)
+
+### Eureka
+- MSA 구축 시 사용되는 `서비스 디스커버리(Service Discovery)` 및 `레지스트리 서버`
+- Service Discovery: Client 가 서비스를 호출할 때 필요한 서비스의 정보(IP, Port)들을 저장 및 관리하는 개념
+
 </details>
 
 
