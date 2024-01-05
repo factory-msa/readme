@@ -1,4 +1,7 @@
 # Factory Project
+- [프로젝트 레포지토리](https://github.com/orgs/factory-msa/repositories)
+
+
 MSA 기반의 쿠폰-상품-발급 등 미니 프로젝트
 > 각 서비스에 대한 설명은 토글(▶︎) 버튼을 클릭해주세요
 
