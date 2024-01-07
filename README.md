@@ -63,6 +63,26 @@ https://docs.spring.io/spring-cloud-gateway/docs/current/reference/html/
   <summary><b>Config Service (Port: 8888)</b></summary>
   
   - [레포지토리](https://github.com/factory-msa/factory-config)
+
+
+### Config
+- 분산 시스템에서 외부 설정 정보를 여러 서버 및 클라이언트에게 제공하는 서비스
+- Config Server 는 외부에 제공하는 모든 환경에 대한 정보들을 관리하는 중앙 서버
+
+![img.png](https://github.com/factory-msa/factory-config/blob/main/img.png)
+
+![img_1.png](https://github.com/factory-msa/factory-config/blob/main/img_1.png)
+
+![img_2.png](https://github.com/factory-msa/factory-config/blob/main/img_2.png)
+
+<br>
+
+![image](https://github.com/factory-msa/factory-config/assets/50076031/13217369-6587-4e66-a7f9-645f12d501a9)
+- https://mangkyu.tistory.com/253
+
+### docs
+- https://docs.spring.io/spring-cloud-config/docs/current/reference/html/
+
 </details>
 
 
