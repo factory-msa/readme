@@ -22,6 +22,8 @@ MSA 기반의 쿠폰-상품-발급 등 미니 프로젝트
   - 각 서비스의 추적, 로깅 등에 사용될 `글로벌 트랜잭션 ID` 를 생성하고, `HTTP Header` 에 설정
 - `Request Logging`
   - 모든 클라이언트의 요청 데이터를 DB 에 저장
+- TODO: `Authentication & Authorization`
+- TODO: `Circuit Breaker`
 
 ### Gateway Glossary
 ![image](https://github.com/JuHyun419/study/assets/50076031/5b21f55f-5789-4ae4-8741-f9f930a86c21)
