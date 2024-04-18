@@ -96,6 +96,7 @@ https://docs.spring.io/spring-cloud-gateway/docs/current/reference/html/
   <summary><b>Coupon Service (Port: 10001)</b></summary>
   
   - [레포지토리](https://github.com/factory-msa/factory-coupon)
+  - TODO
 </details>
 
 
@@ -103,6 +104,7 @@ https://docs.spring.io/spring-cloud-gateway/docs/current/reference/html/
   <summary><b>Product Service (Port: 10002)</b></summary>
   
   - [레포지토리](https://github.com/factory-msa/factory-product)
+  - TODO
 </details>
 
 
@@ -110,5 +112,6 @@ https://docs.spring.io/spring-cloud-gateway/docs/current/reference/html/
   <summary><b>Issuance Service (Port: 10003)</b></summary>
   
   - [레포지토리](https://github.com/factory-msa/factory-issuance)
+  - TODO
 </details>
 
