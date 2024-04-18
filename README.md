@@ -49,6 +49,9 @@ https://docs.spring.io/spring-cloud-gateway/docs/current/reference/html/
 ### Eureka
 - MSA 구축 시 사용되는 `서비스 디스커버리(Service Discovery)` 및 `레지스트리 서버`
 - Service Discovery: Client 가 서비스를 호출할 때 필요한 서비스의 정보(IP, Port)들을 저장 및 관리하는 개념
+- 왜 필요할까?
+  - Eureka Service가 존재하지 않고, API Gateway에서 모든 서비스의 정보를 관리하고, 각 서비스에서 다른 서비스들의 정보를 등록하여 관리한다면, 이후 서비스의 확장/축소 등의 유지보수에서 각각의 서비스 정보들을 업데이트 해야한다.
+  - 따라서 쉽게 얘기하면, 중앙집중화(?) 정도로 생각하면 될 듯
 
 ### localhost:8761
 ![image](https://github.com/factory-msa/factory-eureka/assets/50076031/68b46e57-710e-4dba-8bd4-1c0461ca4749)
